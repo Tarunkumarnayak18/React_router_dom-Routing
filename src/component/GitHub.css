@@ -1,0 +1,52 @@
+/* Overall container styles */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Error message styles */
+p.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* User data container styles */
+.user-data {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.user-data p {
+  margin-bottom: 8px;
+}
+
+.user-data img {
+  max-width: 100%;
+  border-radius: 4px;
+}
